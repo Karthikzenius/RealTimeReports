@@ -1,0 +1,150 @@
+.sub-wrapper-section{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.header-component{
+    display: grid;
+    grid-template-columns: 45vh 2fr;
+    background-color: rgb(255, 255, 255);
+    padding: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 2px;
+    margin-top: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+}
+.header-component:hover{
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px; 
+    border: #3b6aa3 solid 1.5px;
+}
+
+.Title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 8px;
+    padding-top: 5px;  
+}
+
+.table-content{
+  margin-top: 15px;
+  padding: 22px;
+  color: rgb(62, 61, 61);
+}
+.card-insidecontainer{
+    display: flex;
+    // flex-direction: row;
+    gap:15px;
+    justify-content: center;
+    align-items: center;
+    padding:15px;
+    height: 45vh;
+    
+}
+.card-insidecontent{
+    width: 36rem;
+    height: 35vh;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 13px;
+    background-color: #DBE0E4;
+    // background: linear-gradient(to left,#80638a 11%, white 2% ) 0px 2px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  
+}
+.card-insidecontent:hover{
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    transform: translateY(5px);
+}
+.icon-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    background: linear-gradient(to left,#067E3D 11%, white 2% ) 0px 2px;
+    border-top-right-radius: 13px;
+    border-top-left-radius: 13px;
+    
+}
+.queue-icon{
+    font-size: 35px;
+    margin-left: 6px;
+    color: #4c6080;
+}
+.card-title{
+    font-size: 26.8px;
+    margin-top: -9px;
+    color: #4c6080;
+}
+.card-middletext{
+    width: 15rem;
+   
+}
+.color-content{
+    background: linear-gradient(to left,#5BA256 11%, white 2% ) 0px 2px;
+    border-bottom-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+}
+
+// Agents
+.Agentcard-insidecontent{
+    width: 36rem;
+    height: 43vh;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 13px;
+    background-color: #DBE0E4;
+    // background: linear-gradient(to left,#80638a 11%, white 2% ) 0px 2px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.Agentcard-insidecontent:hover{
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    transform: translateY(5px);
+}
+.Agenticon-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    background: linear-gradient(to left,#DF6941 11%, white 2% ) 0px 2px;
+    border-top-right-radius: 13px;
+    border-top-left-radius: 13px;
+}
+.Agentcolor-content{
+    background: linear-gradient(to left,#f38865 11%, white 2% ) 0px 2px;
+    border-bottom-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+}
+// Routing profile
+.Routingicon-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    background: linear-gradient(to left,#0090A7 11%, white 2% ) 0px 2px;
+    border-top-right-radius: 13px;
+    border-top-left-radius: 13px;
+}
+.Routingcolor-content{
+    background: linear-gradient(to left,#38AFB8 11%, white 2% ) 0px 2px;
+    border-bottom-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+}
+// Agente Queues
+.AgentQueuesicon-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    background: linear-gradient(to left,#3E5670 11%, white 2% ) 0px 2px;
+    border-top-right-radius: 13px;
+    border-top-left-radius: 13px;
+}
+.AgentQueuescolor-content{
+    background: linear-gradient(to left,#7786A2 11%, white 2% ) 0px 2px;
+    border-bottom-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+}
+.link-direction{
+    text-decoration: none;
+}

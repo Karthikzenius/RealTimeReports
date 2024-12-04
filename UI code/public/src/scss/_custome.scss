@@ -1,0 +1,215 @@
+@import "./variables";
+
+.main-body-wrapper-section{
+    background-color: $main-body-bg;
+    height: calc(100vh - 4.4rem);
+    margin-left: 3.45rem;
+    padding: 0.4rem;
+    // overflow-y: auto;
+    overflow:hidden ;
+    
+}
+.sub-wrapper-section{
+    border-radius: 0.3rem;
+    background-color: $body-content-bg;
+    height: calc(98vh - 5.4rem);
+    overflow-y: auto;
+    overflow-x:hidden ;
+}
+.main-wrapper-tableheader {
+    height: 48px;
+    display: flex;
+    background-color: white;
+    justify-content: end;
+    align-items: center;
+    border-bottom: 1px solid #E4E6E7;
+    gap: 0 65px;
+    padding-right: 5rem;
+
+    .search-headerwrapper {
+        display: flex;
+    }
+
+    .table-searchinput {
+        height: 28px;
+        width: 310px;
+        border: var(--bs-border-width) solid var(--bs-border-color);
+        border-radius: 16px;
+        padding-left: 38px;
+        color: black;
+        font-size: 13px;
+    }
+
+    .table-search-icon {
+        position: absolute;
+        padding: 8px 13px;
+        color: #A2A19C;
+        font-size: 14px;
+    }
+
+    .table-searchinput::placeholder {
+        font-size: 12px;
+        color: #A2A19C;
+    }
+
+    .addnew-headertable {
+        background-color: $active-color;
+        width: 96px;
+        height: 28px;
+        border: 1px solid solid #FD7B38;
+        border-radius: 16px;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+        row-gap: 25px;
+        cursor: pointer;
+    }
+
+    .addnew-headertable:hover {
+        background-color: $active-color;
+        width: 96px;
+        height: 28px;
+        border: 1px solid solid #FD7B38;
+        border-radius: 16px;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+        row-gap: 25px;
+
+    }
+
+    .addnew-headertable {
+        background-color: $active-color;
+        width: 96px;
+        height: 28px;
+        border: 1px solid $active-color;
+        border-radius: 16px;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        row-gap: 25px;
+        cursor: pointer;
+    }
+
+}
+
+.wrapper-maintable-content {
+    border-radius: 5px;
+    height: calc(100vh - 11.95rem);
+    // width: calc(100% - 0px);
+
+    .main-table {
+        overflow-x: scroll;
+        // table-layout: fixed !important;
+        border-bottom: 1px solid #E4E6E7;
+    
+    }
+
+    .table-header {
+        border-bottom: 1px solid #E4E6E7;
+        height: 38px;
+        font-size: 12px;
+        font-weight: 500;
+        background-color: #F7F6F480;
+        
+    }
+
+    .table-body-content {
+        border-bottom: 1px solid #E4E6E7;
+        height: 38px;
+        font-size: 12px;
+        font-weight: 500;
+
+    }
+
+    .table-body-content:hover {
+        background-color: #F7F6F480;
+    }
+
+    .table-heading {
+        padding-left: 14px;
+    }
+
+    // th,
+    // td {
+    //     white-space: nowrap;
+    //     overflow: hidden;
+    //     text-overflow: ellipsis;
+    //     color: #f8f8fa;
+    //     font-size: 12px;
+    // }
+
+    .down-table-arrow {
+        color: #FD7B38;
+        cursor: pointer;
+    }
+
+    .edit-table-icon {
+        color: gray;
+        background-color: none !important;
+        cursor: pointer;
+    }
+
+    .table>:not(caption)>*>* {
+        padding: 0rem;
+        background-color: #F7F6F480 !important;
+    }
+    .edit-icon-table{
+        padding-right: 0.7rem !important;
+        background-color: white !important;
+    }
+    .table-data-name{
+        padding-left: 15px;
+        cursor: pointer;
+    }
+
+}
+
+.modal-body-data {
+    height: 22rem;
+    overflow: auto;
+}
+
+.cancelbutton {
+    border-radius: 16px;
+    // border: 2px solid #433E3A;
+    border: 2px solid #E4E4DE;
+    height: 28px;
+    width: 80px;
+    font-size: 12px;
+    color: $active-color;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnnextchange {
+    height: 28px;
+    width: 80px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    //    color: #A2A19C;
+    color: white;
+    background-color: #FD7B38;
+    //    border: 2px solid #E4E4DE;
+    border: 2px solid #FD7B38;
+    // background-color: $active-color;
+}
+
+.btnnextchange:hover {
+    cursor: pointer;
+    color: white;
+    border: 2px solid #FD7B38;
+    background-color: #FD7B38;
+
+}

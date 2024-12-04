@@ -1,0 +1,19 @@
+{
+  "name": "realtimebackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "RealtimeData.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "start:both":"concurrently \"node Server.js\" \"node RealtimeData.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "redis": "^4.7.0"
+  }
+}

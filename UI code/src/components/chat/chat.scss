@@ -1,0 +1,249 @@
+.main-wrapper-chat {
+  padding-left: 1rem;
+  font-size: 12px;
+  font-weight: 400;
+  color: #1E2538;
+  height: 48px;
+}
+
+.SendBTN {
+  /* width:30px !important; */
+  background: none; /* Remove default button background */
+  border: none; /* Remove default button border */
+  cursor: pointer; /* Change cursor to pointer */
+  padding: 0; /* Remove default padding */
+  display: inline-flex; /* Center the icon */
+  align-items: center; /* Center the icon vertically */
+  justify-content: center; /* Center the icon horizontally */
+}
+.SendBTN:hover .send-icon {
+  color: #019974; /* Icon hover color */
+}
+
+.chatbox {
+  background-color: #E4E5E0;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  // max-height: calc(100vh - 12rem);
+  height: 25rem;
+  position: relative;
+  overflow-y: auto;
+  display: flex;
+  overflow-y: auto;
+  flex-direction: column; /* Ensures messages are aligned vertically */
+}
+
+.inputmessage {
+  margin-top: 0.5rem;
+  width: 31.5rem;
+  height: 2.5rem;
+  margin-left: 0.3rem;
+  border: none;
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
+
+.bottom-navbar {
+  margin-left: 0.3rem;
+  width: 31.5rem;
+  background-color: #F0F1F3;
+  height: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom-left-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+}
+
+.icon {
+  padding-left: 1rem;
+  padding-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.attach {
+  margin-left: 1rem;
+  padding-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.send-icon {
+  color: #02B788;
+  margin-right: 1rem;
+  padding-top: 1rem;
+  font-size: 1.2rem;
+  margin-left: 12.5rem;
+} 
+
+.chatinputbox {
+  // position: absolute;
+  top: 280px;
+  margin-top: auto;
+}
+
+.chat-logo {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.interactionimg {
+  width: 2rem;
+  height: 2rem;
+}
+
+.interaction-info-details {
+  padding-top: 0.2rem;
+  display: flex;
+}
+
+.interactioninfo {
+  padding-left: 1rem;
+}
+
+.bg-light {
+  height: 3rem;
+  background-color: #F8F9FA;
+}
+
+.issue-info {
+  border-top: 1px solid #E4E6E7;
+  margin-top: 0.5rem;
+}
+
+.Reason {
+  padding-top: 0.5rem;
+}
+
+.last-interactions-imgs {
+  height: 2rem;
+  width: 2rem;
+}
+
+.issue-info h6 {
+  padding-top: 0.5rem;
+}
+
+.tickets {
+  display: flex;
+  margin-top: 1.9rem;
+}
+
+.tickets-info {
+  padding-left: 1rem;
+}
+
+.ticket-green {
+  color: #50CCA7;
+}
+
+.ticket-blue {
+  color: #3B93D3;
+}
+
+.ticket-red {
+  color: #FB8962;
+}
+
+.user-section {
+  margin-right: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  float: right;
+  // align-self: flex-end; /* Align user messages to the right */
+  background-color: #D9FAF1;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 0.5rem;
+  padding: 0.2rem;
+}
+
+.agent-section {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: flex-start; /* Align agent messages to the left */
+  background-color: #FFFFFF;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 0.5rem;
+  padding: 0.2rem;
+}
+
+.contentmessage {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.internalchat-nav {
+  padding-top: 1rem;
+  height: 3rem;
+  background-color: #F8F9FA;
+  color: #02DF6E;
+}
+.internalchat-nav b{
+  padding-left: 0.5rem;
+}
+
+.searchchat {
+  padding-top: 1rem;
+}
+
+.searchchat i {
+  padding-top: 0.4rem;
+  float: right;
+}
+
+.chatLists {
+  flex-direction: column;
+  display: flex;
+  gap: 1rem;
+  padding: 10px;
+}
+
+.chatmessage {
+  display: flex;
+}
+
+.profileandName:hover {
+  background-color: #E4E6E7;
+}
+
+.mediatypeprofiles {
+  height: 2rem;
+  width: 2rem;
+}
+
+.fa-solid.fa-check-double {
+  padding-top: 0.5rem;
+}
+
+.row {
+  height: 4.2rem;
+}
+
+.fa-check-double {
+  margin-right: 0.5rem;
+}
+
+.chat-main-wrapper-section {
+  transition: background-color 0.3s;
+  display: flex;
+  width: 16rem;
+  height: 4rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.chat-main-wrapper-section:hover {
+  background-color: #f0f0f0; /* Change to desired hover color */
+}
+
+.naming-section {
+  margin-left: 2rem;
+}
+
+.timezone-section {
+  margin-left: 3rem;
+}

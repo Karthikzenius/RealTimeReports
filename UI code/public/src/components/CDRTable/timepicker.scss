@@ -1,0 +1,96 @@
+  .insidetimepicker-container input{
+    width: 70px;
+    height:2.3vh;
+    border: none;
+    outline:none;
+    margin-left: 3px;
+    font-size: 14px;
+    background-color: white;
+    padding: 3px;
+  }
+ .timepickerlist-container{
+    background-color: whitesmoke;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    display: flex;
+  
+ }
+
+  .hour-container {
+    width: 50px;
+    height: 14vh;
+    text-align: center;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    border-right: 1px solid rgb(155, 155, 155);
+    border-radius: 3px;
+  }
+
+.hour-container li:hover{
+ background-color: darkgray;
+
+}
+.hour-container ul li {
+    margin-left: -32px;
+    list-style-type: none;
+    font-size: 12px;
+    cursor: pointer;
+
+}
+
+.minute-container{
+    width: 50px;
+    height: 14vh;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    // border-right: 1px solid rgb(155, 155, 155);
+    border-radius: 3px; 
+    text-align: center;
+}
+
+
+    .minute-container li:hover{
+     background-color: darkgray;
+
+    }
+.minute-container ul li {
+    list-style-type: none;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: -32px;
+    padding-left: 5px;
+}
+
+.timeselection{
+    width: 36px;
+    height: 10vh;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+.timeselection ul li{
+    margin-left: -32px;
+    padding-left: 5px;
+    list-style-type: none;
+    font-size: 12px; 
+    cursor: pointer;
+}
+.timeselection ul li:hover{
+    background-color: rgb(199, 199, 199);
+}
+
+.input-timepicker {
+    background-color: white;
+    box-shadow: rgba(161, 161, 161, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 3px;
+    padding-right: 3px;
+    // margin: 3px;
+  
+}
+
+.clockicon{
+    font-size: 13px;
+    text-align: center;
+    margin-left: 5px;
+    margin-bottom: 2px;
+}

@@ -1,0 +1,10 @@
+
+ @font-face {
+    font-family: 'SF Pro Text';
+    src: url('../src/assets/fonts/SFProText-Medium.woff2') format('woff2'),
+         url('../src/assets/fonts/SFProText-Medium.woff') format('woff');
+  }
+.App{
+  font-family: 'SF Pro Text', Arial, sans-serif;
+
+}
